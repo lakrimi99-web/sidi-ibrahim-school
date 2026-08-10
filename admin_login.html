@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول - لوحة تحكم مدرسة سيدي إبراهيم الرائدة</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="admin-login-wrapper">
+
+    <div class="admin-login-box">
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <img src="assets/images/logo.jpg" alt="Logo" style="width: 75px; height: 75px; border-radius: 50%; box-shadow: var(--shadow-sm); margin-bottom: 0.8rem;" onerror="this.src='assets/images/hero.jpg'">
+            <h2 style="color: var(--primary); font-size: 1.6rem; font-weight: 800;">تسجيل دخول الإدارة المحمي</h2>
+            <p style="color: var(--gray-text); font-size: 0.9rem;">مدرسة سيدي إبراهيم الرائدة</p>
+        </div>
+
+        <div id="loginErrorAlert" class="alert alert-danger" style="display: none;"></div>
+
+        <form id="adminLoginForm">
+            <div class="form-group">
+                <label class="form-label"><i class="fas fa-user"></i> اسم المستخدم (Username)</label>
+                <input type="text" id="adminUserInput" required value="sidibrahim" class="form-control" placeholder="اسم المستخدم">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 1.8rem;">
+                <label class="form-label"><i class="fas fa-lock"></i> كلمة المرور (Password)</label>
+                <input type="password" id="adminPassInput" required value="159" class="form-control" placeholder="كلمة المرور">
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.9rem; font-size: 1.05rem;">
+                <i class="fas fa-sign-in-alt"></i> الدخول للوحة التحكم
+            </button>
+        </form>
+
+        <div style="margin-top: 1.8rem; text-align: center; font-size: 0.85rem; color: var(--gray-text); background: var(--light-bg); padding: 0.8rem; border-radius: var(--radius-sm);">
+            <strong>بيانات الدخول المعتمدة للإدارة:</strong><br>
+            اسم المستخدم: <code>sidibrahim</code> | كلمة المرور: <code>159</code>
+        </div>
+
+        <div style="margin-top: 1.5rem; text-align: center;">
+            <a href="index.html" style="font-size: 0.9rem; color: var(--primary); font-weight: 700;">
+                <i class="fas fa-arrow-right"></i> العودة للواجهة الرئيسية للموقع
+            </a>
+        </div>
+    </div>
+
+    <script src="assets/js/db.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
