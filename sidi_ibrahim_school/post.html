@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل المقال | مدرسة سيدي إبراهيم الرائدة</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="brand-logo">
+                    <img src="assets/images/logo.jpg" alt="Logo" onerror="this.src='assets/images/hero.jpg'">
+                    <div class="brand-title">
+                        <span class="brand-name">مدرسة سيدي إبراهيم الرائدة</span>
+                        <span class="brand-sub">Sidi Ibrahim Pioneer School</span>
+                    </div>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">الرئيسية</a></li>
+                    <li><a href="about.html" class="nav-link">من نحن والإدارة</a></li>
+                    <li><a href="gallery.html" class="nav-link">الأنشطة والمعرض</a></li>
+                    <li><a href="news.html" class="nav-link active">الأخبار والإعلانات</a></li>
+                    <li><a href="contact.html" class="nav-link">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="post-detail-container">
+        <div class="container">
+            
+            <div style="display: flex; gap: 0.5rem; align-items: center; font-size: 0.9rem; color: var(--gray-text); margin-bottom: 1.5rem;">
+                <a href="index.html"><i class="fas fa-home"></i> الرئيسية</a>
+                <span>/</span>
+                <a href="news.html">الأخبار والإعلانات</a>
+                <span>/</span>
+                <span id="postBreadcrumbTitle" style="color: var(--primary); font-weight: 700;">تفاصيل الخبر</span>
+            </div>
+
+            <div class="grid" style="grid-template-columns: 2.2fr 1fr; gap: 2.5rem;">
+                <main>
+                    <article style="background: #FFF; padding: 2.5rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); box-shadow: var(--shadow-sm);">
+                        
+                        <div class="post-header-full">
+                            <span class="badge badge-success" id="postDetailCategory" style="font-size: 0.9rem; margin-bottom: 0.8rem; background: var(--secondary-light); color: var(--secondary);">
+                                الأنشطة المدرسية
+                            </span>
+                            
+                            <h1 class="post-full-title" id="postDetailTitle">انطلاق فعاليات معرض العلوم والابتكار للعام الدراسي 2026</h1>
+                            
+                            <div class="post-full-meta">
+                                <span><i class="fas fa-user-edit"></i> بقلم: إدارة المدرسة</span>
+                                <span><i class="far fa-calendar-alt"></i> تاريخ النشر: <span id="postDetailDate">2026/08/01</span></span>
+                                <span><i class="far fa-eye"></i> المشاهدات: <span id="postDetailViews">142</span></span>
+                            </div>
+                        </div>
+
+                        <img src="uploads/robotics.jpg" id="postDetailImage" alt="Featured" class="post-featured-img" onerror="this.src='assets/images/hero.jpg'">
+
+                        <div class="post-content-body" id="postDetailContent">
+                            <p>ببالغ الفخر والاعتزاز، افتتحت إدارة <strong>مدرسة سيدي إبراهيم الرائدة</strong> صباح اليوم فعاليات المعرض السنوي للعلوم والابتكار تحت شعار <em>"علماء الغد يبنون المستقبل"</em>.</p>
+                            <p>وقد شمل المعرض أكثر من 40 مشروعاً علمياً قدمها طلاب المراحل المختلفة، تنوعت بين تطبيقات الذكاء الاصطناعي، ومشاريع الطاقة المتجددة، والابتكارات الروبوتية المتميزة التي لاقت إشادة كبيرة من لجنة التحكيم والزوار من أولياء الأمور والضيوف.</p>
+                        </div>
+
+                        <div style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                            <a href="news.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">
+                                <i class="fas fa-arrow-right"></i> العودة لقائمة الأخبار
+                            </a>
+                        </div>
+                    </article>
+                </main>
+
+                <aside>
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">أخبار أخرى</h3>
+                        <a href="post.html?id=1" class="recent-post-item">
+                            <img src="uploads/robotics.jpg" alt="Thumb" onerror="this.src='assets/images/hero.jpg'">
+                            <div class="recent-post-info">
+                                <h5>معرض العلوم والابتكار</h5>
+                                <span><i class="far fa-calendar-alt"></i> 2026/08/01</span>
+                            </div>
+                        </a>
+                        <a href="post.html?id=2" class="recent-post-item">
+                            <img src="uploads/honor.jpg" alt="Thumb" onerror="this.src='assets/images/hero.jpg'">
+                            <div class="recent-post-info">
+                                <h5>حفل تكريم المتفوقين</h5>
+                                <span><i class="far fa-calendar-alt"></i> 2026/08/05</span>
+                            </div>
+                        </a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 جميع الحقوق محفوظة - <strong>مدرسة سيدي إبراهيم الرائدة</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/db.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
